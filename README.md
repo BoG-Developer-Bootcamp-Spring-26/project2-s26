@@ -1,4 +1,4 @@
-# Project 1 - Marta Interface
+# Project 2 - Marta Interface
 
 ## Desciption
 
@@ -6,19 +6,19 @@ In this project, you'll be creating a frontend that graphically displays train i
 
 ## Setting Up
 
-- Fork this repository, set the owner to BoG-Dev-Bootcamp-F25, and name it `project1-f25-yourname`
+- Fork this repository, set the owner to BoG-Dev-Bootcamp-S26, and name it `project2-s26-yourname`
 - Clone the repository onto your local computer
 - Navigate to your new project folder and run:
   - `npm create vite@latest -- --no-interactive --template react-ts marta-interface`
 - Create a `pages` and `components` directories in the `src` directory
-- Run `npm start` to start your web app
+- Run `npm run dev` to start your web app and access your local build through the URL that pops up in your terminal.
 - Remember, you can ignore all the template files in src except `App.tsx` and `App.css`
 
 ## Submission
 
 Create a 0.5-2 minute demo video to showcase your project's functionality (this is just so that we don't have to go through and install dependencies / deal with versioning errors for every single exercise, we're still gonna look at your code)!
 
-- **Due Date**: 10-14-25
+- **Due Date**: 3/17/2026
 
 ## Instructions
 
@@ -82,7 +82,7 @@ As a bonus, once the rest of the code displays successfully, we recommend incorp
 
 Now that we are set up, we want to add two new pages! We will call these `Home.tsx` and `About.tsx`.
 
-In `Home.tsx` you can create a simple MARTA homescreen page up to your own design or follow the Figma Page below that will have the form of a navbar that takes you to the `LinesPage.tsx` for each line with the display for `LinesPage.tsx` being the line that was clicked on in the navbar. There will also be a link to an About page at the top right of the home screen.
+In `Home.tsx` you can create a simple MARTA homescreen page up to your own design or follow the designs below that will have the form of a navbar that takes you to the `LinesPage.tsx` for each line with the display for `LinesPage.tsx` being the line that was clicked on in the navbar. There will also be a link to an About page at the top right of the home screen.
 
 In `About.tsx`, you will create a simple page that displays the MARTA map and some basic information about the MARTA's purpose on the page. This page will include a button somewhere linking back to the home page.
 
