@@ -26,7 +26,7 @@ In this project, you'll be creating a frontend that graphically displays train i
     ],
   })
   ```
-  3. Add `@import "tailwindcss;` to the top of `main.css`. This will add tailwind to your entire application (and components), not just the `App.tsx` page.
+  3. Add `@import "tailwindcss";` to the top of `index.css`. This will add tailwind to your entire application (and components), not just the `App.tsx` page.
   4. You can now use Tailwind classes on anything by adding classes through the `className` prop!
 - Create a `pages` and `components` directories in the `src` directory
 - Run `npm run dev` to start your web app and access your local build through the URL that pops up in your terminal.
