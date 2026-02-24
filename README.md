@@ -10,6 +10,24 @@ In this project, you'll be creating a frontend that graphically displays train i
 - Clone the repository onto your local computer
 - Navigate to your new project folder and run:
   - `npm create vite@latest -- --no-interactive --template react-ts marta-interface`
+- If you want to use tailwind (optional but recommended) in this project, follow the steps below. I've linked the full tailwind setup page [here](https://tailwindcss.com/docs/installation/using-vite) for context, but the below steps from start to finish should work:
+  1. From the root directory of your project, run `npm i tailwindcss @tailwindcss/vite`
+  2. Change your `vite.config.ts` to the below content. You can just copy and paste this and it will work!
+  ```
+  import { defineConfig } from 'vite'
+  import react from '@vitejs/plugin-react'
+  import tailwindcss from "@tailwindcss/vite";
+  
+  // https://vite.dev/config/
+  export default defineConfig({
+    plugins: [
+      react(),
+      tailwindcss(),
+    ],
+  })
+  ```
+  3. Add `@import "tailwindcss;` to the top of `main.css`. This will add tailwind to your entire application (and components), not just the `App.tsx` page.
+  4. You can now use tailwind classes on anything by adding classes through the `className` prop!
 - Create a `pages` and `components` directories in the `src` directory
 - Run `npm run dev` to start your web app and access your local build through the URL that pops up in your terminal.
 - Remember, you can ignore all the template files in src except `App.tsx` and `App.css`
